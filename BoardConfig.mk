@@ -14,7 +14,8 @@
 # limitations under the License.
 #
 
--include device/motorola/sm7250-common/BoardConfigCommon.mk
+# Inherit from sm7250-common
+include device/motorola/sm7250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/motorola/smith
 
@@ -77,3 +78,6 @@ VENDOR_SECURITY_PATCH := 2022-08-01
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Inherit the proprietary files
+include vendor/motorola/smith/BoardConfigVendor.mk
