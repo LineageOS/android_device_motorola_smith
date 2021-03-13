@@ -2,6 +2,10 @@
 # Properties for smith
 #
 
+# Firmware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.hw.modem_version=.
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.color_mode=9
