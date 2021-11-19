@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03a12575_55e1fb6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2021-11-19T17:16:22Z",
+      "side": 1,
+      "message": "Default value is \"_11.\" and sets by moto scripts on boot (https://dumps.tadiphone.dev/dumps/motorola/smith/-/blob/msi-user-11-RPS31.Q1-40-17-12-21bf4c-release-keys/vendor/etc/vhw.xml#L174)\ni think this hack is not needed on smith",
+      "revId": "83c054d2e13d6927a1d57d4a149b6d9a1aa03286",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
