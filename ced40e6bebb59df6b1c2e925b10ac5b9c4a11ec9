@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2f56461_f77dbf4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2021-11-20T01:34:37Z",
+      "side": 1,
+      "message": "This isn\u0027t sufficient to make the secondary display usable, but it does stop the mirroring.",
+      "revId": "ced40e6bebb59df6b1c2e925b10ac5b9c4a11ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
