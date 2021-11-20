@@ -32,6 +32,7 @@ vendor/lib64/sensors.tof.vl53l1.so
 
 # Camera
 vendor/etc/camera/vidhance_calibration
+vendor/lib64/camera/components/com.qti.node.remosaic.so
 vendor/lib64/camera/com.mot.eeprom.mot_cat24c64_s5kgm1sp_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_s5k3t2sp_eeprom.so
 vendor/lib64/camera/com.qti.sensormodule.semco_mot_s5kgm1sp.bin
@@ -44,6 +45,9 @@ vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.mot_s5k3t2sp.bin
 vendor/lib64/camera/com.qti.tuned.mot_s5kgm1sp.bin
 vendor/lib64/camera/com.qti.tuned.mot_s5kgm1sp_cli.bin
+vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/libmotgyroextractor.so
 
 # Charger
 vendor/bin/charge_only_mode
