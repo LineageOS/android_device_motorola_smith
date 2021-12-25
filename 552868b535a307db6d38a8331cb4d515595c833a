@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3995ce1a_08967260",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2021-12-25T04:46:55Z",
+      "side": 1,
+      "message": "Verified that audio works as expected, combined with kernel and sm7250-common prebuilts updates.",
+      "revId": "552868b535a307db6d38a8331cb4d515595c833a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
