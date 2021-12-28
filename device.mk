@@ -45,7 +45,8 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.laser.sh \
-    init.mmi.overlay.rc
+    init.mmi.overlay.rc \
+    init.recovery.lkm.rc
 
 # NFC
 PRODUCT_COPY_FILES += \
