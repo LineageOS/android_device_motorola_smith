@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f260093_ca047c77",
+        "filename": "rootdir/etc/init.recovery.lkm.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-01-19T10:09:19Z",
+      "side": 1,
+      "message": "it\u0027s probably good to add the exfat module here too?",
+      "revId": "1cb2f5eafbed71b12fbf24ed8f8ee0392675e3fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
