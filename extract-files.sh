@@ -12,6 +12,10 @@ function blob_fixup() {
     vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
         "${SIGSCAN}" -p "CC 0A 00 94" -P "1F 20 03 D5" -f "${2}"
         ;;
+    # memset shim
+    vendor/bin/charge_only_mode)
+        "${PATCHELF}" --print-needed "${2}" |grep -q libmemset_shim || "${PATCHELF}" --add-needed libmemset_shim.so "${2}"
+        ;;
     esac
 }
 
