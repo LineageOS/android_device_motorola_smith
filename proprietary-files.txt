@@ -166,15 +166,6 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so
 
-# IPA Firmware
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
-
 # Listen
 vendor/lib/hw/sound_trigger.primary.default.so
 
