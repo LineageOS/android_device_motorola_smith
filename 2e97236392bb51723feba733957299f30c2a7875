@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4007553d_809ef883",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-09-07T20:42:47Z",
+      "side": 1,
+      "message": "Fine for racer, nairo, kiev. should also be same for smith",
+      "revId": "2e97236392bb51723feba733957299f30c2a7875",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
