@@ -63,13 +63,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.smith
 
-# NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
-    $(LOCAL_PATH)/configs/nfc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/configs/nfc/st54j_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ds.txt \
-    $(LOCAL_PATH)/configs/nfc/st54j_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ss.txt
-
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
