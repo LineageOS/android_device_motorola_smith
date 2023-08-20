@@ -198,6 +198,10 @@ vendor/firmware/mot_bu63169.prog
 vendor/etc/media_profiles_vendor.xml:vendor/etc/media_profiles_V1_0.xml
 
 # NFC
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci-st.conf:vendor/etc/libnfc-nci.conf
+vendor/etc/st54j_conf_ds.txt
+vendor/etc/st54j_conf_ss.txt
 vendor/firmware/st54j_fw.bin
 
 # OEM
