@@ -63,8 +63,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.mmi.laser.sh \
     init.mmi.multisimconfig.sh \
-    init.mmi.overlay.rc \
-    init.recovery.lkm.rc
+    init.mmi.overlay.rc
 
 # Media
 PRODUCT_COPY_FILES += \
