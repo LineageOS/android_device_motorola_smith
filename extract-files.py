@@ -22,9 +22,6 @@ blob_fixups: blob_fixups_user_type = {
     # Patch configureRpcThreadpool 
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('CC 0A 00 94', '1F 20 03 D5'),
-    # memset shim
-    'vendor/bin/charge_only_mode': blob_fixup()
-        .add_needed('libmemset_shim.so'),
     # rename moto modified tinyalsa
     ('vendor/lib/motorola.hardware.audio.adspd@1.0-impl.so', 'vendor/lib64/motorola.hardware.audio.adspd@1.0-impl.so'): blob_fixup()
         .replace_needed('libtinyalsa.so', 'libtinyalsa-moto.so'),
