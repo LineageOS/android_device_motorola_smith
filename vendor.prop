@@ -36,5 +36,6 @@ ro.recovery.ui.margin_width=102
 # Sensors
 ro.vendor.sensors.dual_als=1
 ro.vendor.sensors.mot_ltv=true
+persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.hal_trigger_ssr=false
 persist.vendor.sensors.odl.adsp=true
