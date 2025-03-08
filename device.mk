@@ -30,6 +30,9 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Audio
+PRODUCT_PACKAGES += \
+    audio.primary.lito \
+    libqcompostprocbundle
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
@@ -60,6 +63,10 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.smith
+
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
 
 # Power
 PRODUCT_COPY_FILES += \
