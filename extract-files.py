@@ -29,6 +29,9 @@ blob_fixups: blob_fixups_user_type = {
     # __lttf2 shim 
     'vendor/lib64/libvidhance.so': blob_fixup()
         .add_needed('libcomparetf2_shim.so'),
+    # sensors shim
+    'vendor/lib64/sensors.moto.so': blob_fixup()
+        .add_needed('libbase_shim.so'),
 }  # fmt: skip
 module = ExtractUtilsModule(
     'smith',
