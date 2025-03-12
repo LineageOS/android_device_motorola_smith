@@ -45,3 +45,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="smith_retail-user 12 S2PS32.57-23-31 69268-82a27f release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+# wm extensions for dual-screen foldables
+$(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
