@@ -36,7 +36,7 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Copy to recovery
-BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
+BOARD_RECOVERY_KERNEL_MODULES_LOAD := \
     utags \
     mmi_annotate \
     mmi_info \
@@ -56,7 +56,7 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     synaptics_dsx_rmi_dev \
     synaptics_dsx_test_reporting
 
-RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD))
+RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_KERNEL_MODULES_LOAD))
 
 # Security
 VENDOR_SECURITY_PATCH := 2022-08-01
