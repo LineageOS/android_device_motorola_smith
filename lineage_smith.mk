@@ -20,6 +20,7 @@ PRODUCT_DEVICE := smith
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola razr 5G
 PRODUCT_MANUFACTURER := motorola
+PRODUCT_SYSTEM_NAME := smith_retail
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -34,4 +35,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="smith_retail-user 12 S2PS32.57-23-31 69268-82a27f release-keys" \
     BuildFingerprint="motorola/smith_retail/smith:12/S2PS32.57-23-31/69268-82a27f:user/release-keys" \
-    DeviceProduct=smith_retail
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
