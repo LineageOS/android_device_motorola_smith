@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99961e8f_278b61cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2025-06-29T17:56:54Z",
+      "side": 1,
+      "message": "with this and the other patch it compiles and boots on 22.1",
+      "revId": "7d0372f6aa18549aadc6c06ba92b8168fe420e93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
