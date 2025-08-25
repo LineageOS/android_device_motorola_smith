@@ -17,9 +17,6 @@ ODM_MANIFEST_SKUS += dn n
 ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/manifests/manifest_dn.xml
 ODM_MANIFEST_N_FILES  := $(DEVICE_PATH)/manifests/manifest_n.xml
 
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/smith_defconfig
-
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
     snd-soc-aov-trigger.ko:aov_trigger.ko \
