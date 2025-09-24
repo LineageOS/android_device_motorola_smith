@@ -59,10 +59,6 @@ PRODUCT_PACKAGES += \
     init.mmi.multisimconfig.sh \
     init.mmi.overlay.rc
 
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.smith
