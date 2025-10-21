@@ -138,9 +138,6 @@
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
 
-    <!-- The default peak refresh rate for a given device. -->
-    <integer name="config_defaultPeakRefreshRate">90</integer>
-
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
@@ -186,18 +183,6 @@
         L 430, 0
         Z
     </string>
-
-    <!-- Not allow to switch to higher refresh rate when (display, ambient) brightness falls into
-         the region defined by the two arrays -->
-    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
-        <item>-1</item>
-    </integer-array>
-    <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
-        <item>-1</item>
-    </integer-array>
-
-    <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">90</integer>
 
     <!-- When true, local displays that do not contain any of their own content will automatically
          mirror the content of the default display. -->
