@@ -60,7 +60,6 @@ BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
     qpnp-smbcharger-mmi \
     slg51000 \
     exfat \
-    aw8697 \
     sensors_class \
     mmi_relay \
     sx933x_sar \
