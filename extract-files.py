@@ -20,6 +20,10 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/libnfc-hal-st.conf': blob_fixup()
+        # I33d07604e87a2d9466a3a857e281ee4b611330a8 "Switch NFC from HIDL to AIDL"
+        .regex_replace('White list', 'Allow list')
+        .regex_replace('DEVICE_HOST_WHITE_LIST', 'DEVICE_HOST_ALLOW_LIST'),
     # Patch configureRpcThreadpool 
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('CC 0A 00 94', '1F 20 03 D5'),
