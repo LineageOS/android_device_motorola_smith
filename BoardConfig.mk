@@ -45,7 +45,6 @@ BOARD_RECOVERY_KERNEL_MODULES_LOAD := \
     qpnp-power-on-mmi \
     qpnp-smbcharger-mmi \
     slg51000 \
-    exfat \
     sensors_class \
     mmi_relay \
     sx933x_sar \
