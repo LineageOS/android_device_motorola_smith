@@ -170,3 +170,7 @@ on property:persist.vendor.stop_5g_thermal=1
 
 on property:ro.vendor.carrier=softbank
     setprop ro.device.product.category 1
+
+on charger
+    insmod /vendor/lib/modules/bq27426_fg_mmi.ko
+    insmod /vendor/lib/modules/qpnp-smbcharger-mmi.ko
