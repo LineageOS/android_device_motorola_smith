@@ -50,10 +50,10 @@ BOARD_RECOVERY_KERNEL_MODULES_LOAD := \
     sx933x_sar \
     touchscreen_mmi \
     sec_mmi \
-    synaptics_mmi \
-    synaptics_dsx_fw_update \
-    synaptics_dsx_rmi_dev \
-    synaptics_dsx_test_reporting
+    synaptics_mmi_class \
+    synaptics_mmi_class_fw_update \
+    synaptics_mmi_class_rmi_dev \
+    synaptics_mmi_class_test_reporting
 
 RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_KERNEL_MODULES_LOAD))
 

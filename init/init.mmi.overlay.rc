@@ -10,7 +10,7 @@ on mmi-priority
    # and needs to load first. Touchscreen might need extra time
    # to perform firmware update if necessary
    setprop vendor.mmi_init.stage priority
-   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules sensors_class.ko mmi_relay.ko touchscreen_mmi.ko sec_mmi.ko synaptics_mmi.ko synaptics_dsx_fw_update.ko synaptics_dsx_rmi_dev.ko synaptics_dsx_test_reporting.ko
+   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules sensors_class.ko mmi_relay.ko touchscreen_mmi.ko sec_mmi.ko synaptics_mmi_class.ko synaptics_mmi_class_fw_update.ko synaptics_mmi_class_rmi_dev.ko synaptics_mmi_class_test_reporting.ko
 
 on fs
    # Majority of MMI DLKMs should be in this group
