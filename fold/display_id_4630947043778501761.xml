@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<displayConfiguration>
+    <densityMapping>
+        <density>
+            <width>876</width>
+            <height>2142</height>
+            <density>360</density>
+        </density>
+    </densityMapping>
+</displayConfiguration>

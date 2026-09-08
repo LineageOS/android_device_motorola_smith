@@ -39,6 +39,13 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1.vendor \
     com.motorola.hardware.biometric.fingerprint@1.0.vendor
 
+# Fold
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fold/device_state_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/devicestate/device_state_configuration.xml \
+    $(LOCAL_PATH)/fold/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml \
+    $(LOCAL_PATH)/fold/display_id_4630947043778501761.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947043778501761.xml \
+    $(LOCAL_PATH)/fold/display_id_4630947043778501762.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947043778501762.xml
+
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.laser.sh \
@@ -68,6 +75,9 @@ PRODUCT_COPY_FILES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libcomparetf2_shim
+
+# Inherit wm extensions api
+$(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/smith/smith-vendor.mk)

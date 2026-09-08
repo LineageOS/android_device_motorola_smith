@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<layouts>
+    <layout>
+        <!-- OPENED -->
+        <state>0</state>
+
+        <display enabled="true" defaultDisplay="true">
+            <address>4630947043778501761</address>
+            <position>front</position>
+        </display>
+
+        <display enabled="false">
+            <address>4630947043778501762</address>
+            <position>rear</position>
+        </display>
+    </layout>
+
+    <layout>
+        <!-- CLOSED -->
+        <state>1</state>
+
+        <display enabled="false">
+            <address>4630947043778501761</address>
+        </display>
+
+        <display enabled="true" defaultDisplay="true">
+            <address>4630947043778501762</address>
+            <position>front</position>
+        </display>
+    </layout>
+</layouts>
+
