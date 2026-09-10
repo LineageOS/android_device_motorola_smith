@@ -26,6 +26,8 @@ PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Boot animation
+$(call soong_config_set_bool,bootanimation,multidisplay,true)
+
 TARGET_SCREEN_HEIGHT := 2142
 TARGET_SCREEN_WIDTH := 876
 
