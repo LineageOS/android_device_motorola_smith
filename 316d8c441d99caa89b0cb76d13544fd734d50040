@@ -16,6 +16,23 @@
       "message": "Why is this being set to empty string? Does this have any effect?",
       "revId": "316d8c441d99caa89b0cb76d13544fd734d50040",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "273eb637_52d632ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-11T22:38:42Z",
+      "side": 1,
+      "message": "fwiw this does seem to be the default in FWB:\n\n```\n    \u003c!-- The display cutout configs for secondary built-in display. --\u003e\n    \u003cstring name\u003d\"config_secondaryBuiltInDisplayCutout\" translatable\u003d\"false\"\u003e\u003c/string\u003e\n    \u003cstring name\u003d\"config_secondaryBuiltInDisplayCutoutRectApproximation\" translatable\u003d\"false\"\u003e\n        @string/config_secondaryBuiltInDisplayCutout\n    \u003c/string\u003e\n```\n\nUnless something else already overrides it...",
+      "revId": "316d8c441d99caa89b0cb76d13544fd734d50040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
