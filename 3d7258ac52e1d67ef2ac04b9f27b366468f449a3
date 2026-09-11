@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "348fcf1d_7513e277",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-11T22:31:17Z",
+      "side": 1,
+      "message": "Still wish we had a better way to handle this, but it\u0027s what we\u0027ve got atm.",
+      "revId": "3d7258ac52e1d67ef2ac04b9f27b366468f449a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
