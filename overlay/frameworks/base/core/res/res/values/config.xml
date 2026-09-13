@@ -154,13 +154,10 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout">
-        M -260, 0
-        L -260, 60
-        L -5, 60
-        L 0, 132
-        L 5, 60
-        L 260, 60
-        L 260, 0
+        M -170, 0
+        L -170, 90
+        L 170, 90
+        L 170, 0
         Z
         @bottom
         M -430, 0
