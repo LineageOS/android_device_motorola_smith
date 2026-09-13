@@ -8,7 +8,7 @@
         <density>
             <width>800</width>
             <height>600</height>
-            <density>240</density>
+            <density>225</density>
         </density>
     </densityMapping>
 </displayConfiguration>
