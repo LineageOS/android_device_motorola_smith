@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "439f34a9_e348adb8",
+        "filename": "fold/display_layout_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-13T22:57:02Z",
+      "side": 1,
+      "message": "extra newline",
+      "revId": "2faf6ba8976f34693a861b733c0e24a5c7c2cbc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
