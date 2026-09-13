@@ -5,12 +5,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height">90.0px</dimen>
+    <dimen name="status_bar_height">100.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dip</dimen>
-    <dimen name="status_bar_height_portrait">90.0px</dimen>
-
-    <!-- Height of area above QQS where battery/time go (48dp to reduce scrolling) -->
-    <dimen name="quick_qs_offset_height">48dp</dimen>
+    <dimen name="status_bar_height_portrait">100.0px</dimen>
 
     <!-- Top adjustment for the software rounded corners since corners are not perfectly
         round. This value is used when retrieving the "radius" of the rounded corner in cases
