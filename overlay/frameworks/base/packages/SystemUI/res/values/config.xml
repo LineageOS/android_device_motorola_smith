@@ -8,4 +8,13 @@
     <!-- Notifications are sized to match the width of two (of 4) qs tiles in landscape. -->
     <bool name="config_skinnyNotifsInLandscape">false</bool>
 
+    <!--
+    Whether this is a desktop device for purposes of falsing.
+
+    By default, Falsing is enabled. This should be overridden to true by desktop.
+    -If true, it means this is a desktop device for purposes of falsing, and falsing will be skipped
+    -If false (default), Falsing is enabled.
+    -->
+    <bool name="config_isDesktopForFalsingPurposes">true</bool>
+
 </resources>
