@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Whether the display size preference should allow separate DPI settings for each display -->
+    <bool name="config_independent_display_dpi_setting">true</bool>
+
+</resources>
