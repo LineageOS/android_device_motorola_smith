@@ -1,0 +1,9 @@
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- dummy package to replace NavigationBarMode3ButtonOverlay -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.forcegesturenavigation"
+    android:versionCode="1"
+    android:versionName="1.0" />

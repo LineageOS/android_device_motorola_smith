@@ -13,7 +13,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     AvoidAppsInCutoutOverlay \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    ForceGestureNavigationOverlay
 
 # Audio
 PRODUCT_PACKAGES += \
