@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "596ade55_6094d86a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-25T23:18:33Z",
+      "side": 1,
+      "message": "Meh, but unless someone wants to do the ui work to fix it, this is what it is.",
+      "revId": "def3c29afd1b883354f725df7bbe2a68a81ff3cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
