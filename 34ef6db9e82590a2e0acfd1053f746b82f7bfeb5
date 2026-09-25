@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6fe680c_b4f63193",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-25T23:22:01Z",
+      "side": 1,
+      "message": "I\u0027m gonna skip cr on this one as I\u0027m not greatly familiar with all this. What I had originally was my best attempt at an intersection between ripping stock and directly modeling the physical cutouts. There\u0027s every chance stuff wasn\u0027t quite right.",
+      "revId": "34ef6db9e82590a2e0acfd1053f746b82f7bfeb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
