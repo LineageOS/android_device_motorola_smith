@@ -16,6 +16,24 @@
       "message": "Ugh again, this time because diverging from the Lineage product defaults is greatly undesired, but yet more ui work no one qualified is interested in doing. I do wonder if this does what it says on the tin, though. Does it actually force gesture and disable 3-button, or does it only change the default?",
       "revId": "da5278dbad6f11b6067e23aa94f01eee78bfeed2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85993a6a_12819b79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-09-25T23:30:13Z",
+      "side": 1,
+      "message": "Kind of. 3 button is still technically the default, but the setup wizard forces selecting gesture navigation at the end. The option for 3 button in settings is also gone.",
+      "parentUuid": "70c5f8f6_97cc0dd5",
+      "revId": "da5278dbad6f11b6067e23aa94f01eee78bfeed2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
