@@ -7,6 +7,6 @@
 
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
-    <dimen name="status_bar_height_default">24dp</dimen>
+    <dimen name="status_bar_height_default">54dp</dimen>
 
 </resources>
