@@ -1,2 +1,5 @@
 # Cutout
 ro.support_hide_display_cutout=true
+
+# e-SIM
+masterclear.allow_retain_esim_profiles_after_fdr=1
