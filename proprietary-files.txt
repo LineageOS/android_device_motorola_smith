@@ -150,6 +150,10 @@ vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_800x600_269.xml
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_876x2142_620.xml
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_876x2142_620.xml
 
+# eUICC - from rtwo RETEU (16 W1TR36H.56-13 020cda-6262a5)
+product/etc/permissions/privapp-permissions-com.google.android.euicc.xml|1a97a6d86cc0957549a10c4507842373985fdf2e
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED|1d756e1e3851e0898e5579ebb6aa928fb73e69c9
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc.rc
