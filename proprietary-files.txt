@@ -235,6 +235,11 @@ vendor/firmware/samsung-boe-se77c-19092701-17800202-smith.bin:recovery/root/vend
 vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin:recovery/root/vendor/firmware/samsung-csot-se77c-19092706-17800602-smith.bin
 vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat:recovery/root/vendor/firmware/synaptics-s3601r-19031301-2765e0-smith.tdat
 
+# Subsystem Restart
+vendor/bin/ssr_diag
+vendor/bin/ssr_setup
+vendor/bin/subsystem_ramdump
+
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
 vendor/firmware/aw8697_osc_rtp_24K_5s.bin

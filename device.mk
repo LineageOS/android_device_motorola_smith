@@ -74,6 +74,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
+    MotoActiveSimSwitch \
     MotoEuicc
 
 # Touch
