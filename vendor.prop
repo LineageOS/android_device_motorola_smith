@@ -39,3 +39,6 @@ ro.vendor.sensors.mot_ltv=true
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.hal_trigger_ssr=false
 persist.vendor.sensors.odl.adsp=true
+
+# Subsystem Restart
+persist.vendor.ssr.restart_level=ALL_ENABLE
