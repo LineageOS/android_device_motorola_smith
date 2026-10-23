@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dd76b82_c743e7fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-10-23T18:13:18Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_motorola/+/509656",
+      "revId": "e8cfa4b2eb5b192186e4f52fd4bf73af65ba757e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
