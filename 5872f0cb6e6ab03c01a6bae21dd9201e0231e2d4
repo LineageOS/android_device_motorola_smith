@@ -16,6 +16,24 @@
       "message": "currently breaks physical sim",
       "revId": "5872f0cb6e6ab03c01a6bae21dd9201e0231e2d4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ee45d45_1ea3756e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-10-23T15:21:13Z",
+      "side": 1,
+      "message": "was mistaken, switching to physical sim (or esim) was just impossible",
+      "parentUuid": "780c79e2_6db96d12",
+      "revId": "5872f0cb6e6ab03c01a6bae21dd9201e0231e2d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
