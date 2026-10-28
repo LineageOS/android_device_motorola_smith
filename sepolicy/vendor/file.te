@@ -1,0 +1,2 @@
+# ADSPD
+type sysfs_adspd, sysfs_type, fs_type;
