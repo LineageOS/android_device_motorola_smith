@@ -907,7 +907,6 @@
 		<path name="AOV" />
 		<ctl name="SEN_TDM_TX_0 Channels" value="Two" />
 		<ctl name="AIF1TX1 Input 1" value="ISRC2DEC2" />
-		<ctl name="AIF1TX2 Input 1" value="AIF2RX1" />
 	</path>
 
 	<path name="handset">
@@ -1000,7 +999,6 @@
 		<ctl name="SEN_TDM_TX_0 Channels" value="Two" />
 		<ctl name="IN1L Mux" value="B" />
 		<ctl name="AIF1TX1 Input 1" value="ISRC2DEC2" />
-		<ctl name="AIF1TX2 Input 1" value="AIF2RX1" />
 	</path>
 
 	<path name="voice-headphones">
