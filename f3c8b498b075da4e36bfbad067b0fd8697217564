@@ -16,6 +16,24 @@
       "message": "While this works I had a interesting response from LLM-Assistant\n\nCause: The source primary HAL is picking a mic setting with no echo cancellation for VoIP speakerphone. In your call log:\n- Earpiece: the app\u0027s echo cancellation and noise suppression were on, and the HAL picked dmic-endfire (ACDB 111), which has echo cancellation. No echo.\n- Speakerphone: the same flags were on, but the HAL picked plain speaker-mic (ACDB 11), which has none. The echo-reference path was applied, but nothing in that capture chain uses it, so the far end hears itself through the speaker.\n\nTwo settings combine to cause this:\n1. sm7250-common\u0027s vendor.prop sets vendor.audio.feature.dynamic_ecns.enable\u003dtrue. With it on, the HAL ignores the app\u0027s echo cancellation and noise suppression request.\n2. persist.vendor.audio.fluence.speaker\u003dfalse, which is also stock\u0027s value. With dynamic ECNS on and this off, the speaker branch of the source HAL falls through to plain SND_DEVICE_IN_SPEAKER_MIC. It assumes the DSP can switch echo cancellation on at runtime, but Moto\u0027s ACDB 11 tuning doesn\u0027t support that.\n\nStock never sets the dynamic ECNS prop, and Moto\u0027s ACDB has a proper speaker echo-cancellation device: SPEAKER_MIC_AEC_NS, ACDB 114, already mapped in your audio_platform_info.xml. With dynamic ECNS off, the HAL picks it again. Earpiece calls are unaffected and keep dmic-endfire. The VoIP speakerphone path stays; only the mic setting changes.\n\nTested VoIP app: TextNow\nsetting vendor.audio.feature.dynamic_ecns.enable\u003dfalse resolves the echo.\nSince these are compile time flags prebuilt audio ignores vendor.audio.feature.* Feature appears not set for the entire family.",
       "revId": "f3c8b498b075da4e36bfbad067b0fd8697217564",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d1f9d25_9d60d5ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-10-28T21:20:21Z",
+      "side": 1,
+      "message": "this seems correct, vendor.audio.feature.dynamic_ecns.enable\u003dfalse completely removes the echo and loopback. should this go in sm7250-common?",
+      "parentUuid": "47bd2920_9dc10188",
+      "revId": "f3c8b498b075da4e36bfbad067b0fd8697217564",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
