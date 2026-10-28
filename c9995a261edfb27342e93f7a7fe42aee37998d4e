@@ -34,6 +34,24 @@
       "parentUuid": "132c2ab1_1018b32c",
       "revId": "c9995a261edfb27342e93f7a7fe42aee37998d4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "214ff66f_8161606d",
+        "filename": "proprietary-firmware.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-10-28T21:27:29Z",
+      "side": 1,
+      "message": "in that case I\u0027ll leave it up to you",
+      "parentUuid": "5ce5a6f8_afd7b6fc",
+      "revId": "c9995a261edfb27342e93f7a7fe42aee37998d4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
