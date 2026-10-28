@@ -16,6 +16,24 @@
       "message": "```suggestion\n# All firmware images below are extracted from smith_retailu-user 12 S2PS32.57-23-21 c382c9-50dbcb release-keys - RETEU variant\n```\nthis is not a typo, it\u0027s in the actual build fingerprint",
       "revId": "c9995a261edfb27342e93f7a7fe42aee37998d4e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ce5a6f8_afd7b6fc",
+        "filename": "proprietary-firmware.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2026-10-28T21:23:50Z",
+      "side": 1,
+      "message": "I had forgotten this populates from ro.product.product.name.suffix\u003d which on smith can be r / u / e\nWhile we can leave this as-is, I also don\u0027t see anyone else adding this so not sure what is \"proper\"",
+      "parentUuid": "132c2ab1_1018b32c",
+      "revId": "c9995a261edfb27342e93f7a7fe42aee37998d4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
