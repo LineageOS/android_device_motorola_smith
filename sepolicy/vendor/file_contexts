@@ -1,0 +1,2 @@
+# Speaker calibration
+/vendor/bin/cspl_cal                                                    u:object_r:vendor_cspl_cal_exec:s0
