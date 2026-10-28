@@ -1,10 +1,23 @@
+# Extcon
+genfscon sysfs /devices/platform/soc/988000.spi/spi_master/spi0/spi0.0/madera-extcon/extcon    u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/soc:flip_detection/extcon                                  u:object_r:sysfs_extcon:s0
+
 # Power supply device nodes
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-0055/power_supply/fg_main_battery    u:object_r:vendor_sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-1/1-0055/power_supply/fg_flip_battery    u:object_r:vendor_sysfs_battery_supply:s0
 
+# Touchscreen
+genfscon sysfs /devices/platform/soc/984000.i2c/i2c-2/2-0038/touchscreen    u:object_r:vendor_sysfs_touchpanel:s0
+genfscon sysfs /devices/platform/soc/984000.i2c/i2c-2/2-0048/touchscreen    u:object_r:vendor_sysfs_touchpanel:s0
+
 # Wakeup
-genfscon sysfs /devices/platform/soc/884000.i2c/i2c-1/1-0055/power_supply/fg_flip_battery/wakeup66                                                          u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5-mmi/power_supply/battery/wakeup72    u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-1/1-0055/power_supply/fg_flip_battery/wakeup                                                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-1/1-0055/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/984000.i2c/i2c-2/2-0038/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/984000.i2c/i2c-2/2-0048/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-0055/power_supply/fg_main_battery/wakeup                                                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-0055/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-005a/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
 
 # Vibrator
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-3/3-005a/leds/vibrator u:object_r:sysfs_vibrator:s0
