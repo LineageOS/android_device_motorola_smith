@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132c2ab1_1018b32c",
+        "filename": "proprietary-firmware.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 35006
+      },
+      "writtenOn": "2026-10-28T19:35:52Z",
+      "side": 1,
+      "message": "```suggestion\n# All firmware images below are extracted from smith_retailu-user 12 S2PS32.57-23-21 c382c9-50dbcb release-keys - RETEU variant\n```\nthis is not a typo, it\u0027s in the actual build fingerprint",
+      "revId": "c9995a261edfb27342e93f7a7fe42aee37998d4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
