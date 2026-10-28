@@ -29,10 +29,6 @@ vendor.display.window_rect=102,0,102,0
 media.recorder.show_manufacturer_and_model=true
 vendor.mm.en.sec.smoothstreaming=false
 
-# Recovery
-ro.recovery.ui.margin_height=102
-ro.recovery.ui.margin_width=102
-
 # Sensors
 ro.vendor.sensors.dual_als=1
 ro.vendor.sensors.mot_ltv=true
