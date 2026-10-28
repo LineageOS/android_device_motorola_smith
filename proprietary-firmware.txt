@@ -15,5 +15,5 @@ qupfw.elf:qupfw.img;AB
 storsec.mbn:storsec.img;AB
 tz.mbn:tz.img;AB
 uefi_sec.mbn:uefisecapp.img;AB
-xbl_s.melf:xbl.img;AB
+xbl.elf:xbl.img;AB
 xbl_config.elf:xbl_config.img;AB
