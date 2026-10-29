@@ -67,8 +67,5 @@ TARGET_RECOVERY_UI_MARGIN_WIDTH := 102
 # Security
 VENDOR_SECURITY_PATCH := 2022-08-01
 
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Inherit the proprietary files
 include vendor/motorola/smith/BoardConfigVendor.mk
