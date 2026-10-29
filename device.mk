@@ -17,7 +17,6 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.lito \
     audio_amplifier.lito
 
 PRODUCT_PACKAGES += \
